@@ -1,0 +1,416 @@
+﻿@charset "utf-8";
+body {
+	background-image: url(resimler/bg.jpg);
+	background-repeat: repeat-x;
+}
+#anakısım {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+}
+#en_ust {
+	background-color: #2C2C2C;
+	height: 35px;
+	width: 1000px;
+}
+.ust_sol_secm {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 20px;
+	width: 200px;
+	margin-top: 9px;
+	margin-left: 50px;
+	padding-left: 8px;
+}
+.ust_sol_secm a {
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+.ust_sol_secm a:hover {
+	color: #87F1B1;
+}
+
+.sag_secim {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: right;
+	height: 20px;
+	width: auto;
+	margin-top: 9px;
+	margin-right: 40px;
+}
+.sag_secim a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.sag_secim a:hover {
+	color: #87F1B1;
+}
+	
+#header {
+	height: 175px;
+	width: 1000px;
+	margin-top: 3px;
+	display: block;
+	background-image: url(resimler/header_bg.jpg);
+}
+.logo {
+	height: auto;
+	width: auto;
+	margin-left: 100px;
+	margin-top: 20px;
+	float: left;
+}
+.slider {
+	float: left;
+	height: 120px;
+	width: 450px;
+	margin-left: 80px;
+}
+
+
+#menu_kısmı {
+	background-color: #FFFFFF;
+	height: 50px;
+	width: 1000px;
+}
+.menu {
+	background-image: url(resimler/menu_bg.gif);
+	background-repeat: repeat-x;
+	float: left;
+	height: 50px;
+	width: 970px;
+	margin-top: 0px;
+}
+.menu_tip {
+	background-image: url(resimler/menu_divider.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50px;
+	width: 2px;
+	display: inline;
+	padding-top: 2px;
+	padding-left: 5px;
+	float: left;
+}
+.menu ul {
+	margin-top: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+.menu li {
+	float: left;
+}
+.menu a {
+	display: block;
+	width: auto;
+	margin-left: 20px;
+	height: 30px;
+	padding-top: 8px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333333;
+	font-size: 16px;
+}
+.menu a:hover {
+	color: #00CCCC;
+}
+.sag_bolge {
+	background-image: url(resimler/menu_right.gif);
+	background-repeat: repeat-x;
+	float: right;
+	width: 15px;
+	height: 50px;
+}
+.formtable {
+    width: 490px;
+    text-align:center;
+}
+.sol_bolge {
+	height: 50px;
+	background-image: url(resimler/menu_left.gif);
+	background-repeat: repeat-x;
+	float: left;
+	clear: left;
+	width: 15px;
+}
+#navigation {
+	height: 10px;
+	width: 1000px;
+}
+#govde {
+	width: 1000px;
+}
+#govde .sol {
+	height: 400px;
+	width: 200px;
+}
+#govde .orta {
+	height: 65px;
+	width: 550px;
+}
+
+.orta #icerikler {
+	width: 576px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	overflow: hidden;
+	height: auto;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	position: static;
+	visibility: inherit;
+}
+.vitrin_navigasyon {
+	float: right;
+	height: 15px;
+	width: 576px;
+}
+.vitrin {
+	float: right;
+	height: auto;
+	width: 571px;
+	margin-left: 5px;
+}
+.vitrin .vitrin_ilan {
+	float: left;
+	height: 200px;
+	width: 169px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+.vitrin_ilan .ilan_baslik {
+	text-align: center;
+	float: right;
+	height: 15px;
+	width: 160px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	display: block;
+}
+.vitrin_ilan .ilan_resim {
+	float: right;
+	height: 150px;
+	width: 160px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	display: block;
+}
+.vitrin_ilan .ilan_bilgi {
+	float: right;
+	height: 15px;
+	width: 160px;
+	display: block;
+	margin: 3px;
+}
+
+
+
+
+
+#govde .sag {
+	height: 400px;
+	width: 200px;
+}
+#govde .sag .sag_govde {
+	width: 200px;
+	float: left;
+	overflow: hidden;
+	position: static;
+	visibility: inherit;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	padding-top: 0px;
+	margin-top: 0px;
+	height: 400px;
+}
+
+
+.katagoriler {
+	height: 400px;
+	width: 200px;
+	float: left;
+	overflow: hidden;
+	position: static;
+	visibility: inherit;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+}
+.katagoriler ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.katagoriler li {
+}
+.katagoriler a {
+	height: 20px;
+	width: 200px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333333;
+}
+.katagoriler a:hover {
+	color: #0099FF;
+}
+.baslik {
+	background-image: url(resimler/menu_title_bg.gif);
+	height: 30px;
+	width: 200px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 8px;
+}
+.favori_icerik {
+	text-align: center;
+	height: auto;
+	width: 200px;
+	border: 1px solid #0099FF;
+}
+.favori_icerik .icerik_img #form1 {
+	height: auto;
+	width: 200px;
+}
+.icerik_basligi {
+	background-image: url(resimler/bar_bg.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	padding-left: 40px;
+	height: 25px;
+	width: 490px;
+	font-size: 18px;
+	color: #333333;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.orta #icerikler .contentplace {
+	height: auto;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-right: 20px;
+}
+
+.bul_baslik {
+	height: 25px;
+	width: 200px;
+	float: left;
+	color: #333333;
+	text-align: center;
+	background-image: url(resimler/Sag_bar_bg.gif);
+	font-size: 16px;
+	padding-top: 5px;
+	margin-top: 10px;
+}
+.bul_bilgiler {
+	float: left;
+	width: 200px;
+	margin-top: 5px;
+	text-align: left;
+	font-size: 14px;
+	height: auto;
+}
+.bul_bilgiler table {
+	font-weight: bold;
+	font-size: 14px;
+	color: #666666;
+}
+.bul_bilgiler select {
+	width: 120px;
+}
+
+
+
+
+#alt_navigasyon {
+	height: 5px;
+	width: 1000px;
+	float: left;
+}
+#en_alt_kisim {
+	background-image: url(resimler/footer_bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	clear: both;
+	height: 65px;
+	width: 1000px;
+	color: #3D3A3F;
+}
+.sol_alt {
+	float: left;
+	height: 60px;
+	width: 220px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 25px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #333333;
+}
+.alt_img {
+	float: left;
+	height: 60px;
+	width: auto;
+}
+.logo_yazisi {
+	font-size: 24px;
+	font-weight: bold;
+	color: #3D3A3F;
+	text-align: center;
+	height: 55px;
+	width: 125px;
+	float: left;
+}
+.orta_alt {
+	text-align: center;
+	float: left;
+	height: 55px;
+	width: 220px;
+	padding-top: 10px;
+	margin-left: 100px;
+	color: #3D3A3F;
+}
+.sag_alt {
+	color: #3D3A3F;
+	float: right;
+	padding-top: 15px;
+	width: auto;
+	padding-left: 10px;
+}
+.sag_alt a {
+	text-decoration: none;
+	color: #3D3A3F;
+}
+.sag_alt a:hover {
+	color: #0099FF;
+}

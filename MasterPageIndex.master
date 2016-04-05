@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageIndex.master.cs" Inherits="MasterPageIndex" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Seyehat Acentası Sistemi</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="dw_tasarım/sliderengine/jquery.js"></script>
+    <script src="dw_tasarım/sliderengine/amazingslider.js"></script>
+    <script src="dw_tasarım/sliderengine/initslider-1.js"></script>
+    <link href="dw_tasarım/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    
+<div id="wrapper">
+  <div id="header">
+<div class="sag">
+    <asp:Panel ID="pnlgirilmedi" runat="server">
+        <a href="Giris_yap.aspx">Giriş yap</a>
+<a href="Kayit_ol.aspx">Kayıt ol</a> 
+    </asp:Panel>
+    <asp:Panel ID="pnlgirildi" runat="server">
+        <div class="div">
+                <asp:Label ID="lbl_kullanici" runat="server" Text="Label"></asp:Label> &nbsp;
+        </div>
+        <div class="div">
+        <asp:Panel ID="panelrole" runat="server"><a href="admin/admin.aspx">Admin Paneli</a>    
+    </asp:Panel>
+            </div>
+</asp:Panel>
+ </div>
+<div class="orta"> Seyehat Acentası Sistemi</div>
+<div class="sol">
+     <asp:Panel ID="Pnlsagirilmedi" runat="server">        
+    </asp:Panel>
+        
+    <asp:Panel ID="Pnlsagirildi" runat="server">
+        <asp:Button ID="Btncikis" runat="server" Text="Çıkış Yap" BackColor="#F2AA2E" ForeColor="White" OnClick="Btncikis_Click" Height="31px" Width="102px" BorderColor="#F2AA2E" />
+    </asp:Panel>  
+   
+</div>
+</div>
+<div id="nav_header"></div>
+
+
+<div id="govde_sol">
+
+<div id="nav">
+    <ul>
+      <li><a href="anasayfa.aspx">Anasayfa</a></li>
+      <li><a href="hoteller.aspx">Hoteller</a></li>
+      <li><a href="ucuslar.aspx">Uçuşlar</a></li>
+      <li><a href="turlar.aspx">Turlar</a></li>
+      <li><a href="paket_ve_rezervasyon.aspx">Paket & Rezervasyon</a></li>
+      <li><a href="iletisim.aspx">İletişim</a></li>
+
+    </ul>
+  </div>
+</div>
+<div id="govde_orta">
+<div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="dw_tasarım/images/people.jpg" alt="people" /></li>
+            <li><img src="dw_tasarım/images/big.jpg" alt="big" /></li>
+            <li><img src="dw_tasarım/images/seyahat.jpg" alt="seyahat" /></li>
+            <li><img src="dw_tasarım/images/seyht2.jpg" alt="seyht2" /></li>
+        </ul>
+        <div class="amazingslider-engine" style="display:none;"><a href="http://amazingslider.com">JavaScript Slider</a></div>
+    </div>
+</div>
+<div id="govde_sag">
+<div id="booking">
+    <h2>Rezervasyon </h2>
+    <form action="#" method="post">
+      <div class="jtype">
+        <label for="flight">Uçuş</label>
+        <asp:CheckBox ID="ucus" runat="server" />
+        &nbsp; &nbsp;
+        <label for="hotel">Hotel</label>
+        <asp:CheckBox ID="hotel" runat="server" />
+        &nbsp; &nbsp;
+        <label for="cruise">Tur</label>
+        <asp:CheckBox ID="tur" runat="server" />
+      </div>
+      <!-- end .jtype -->
+      <table summary="" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+          <th>Başlangıç tatihi</th>
+          <td>
+              <asp:TextBox ID="textbs_tarihi" runat="server"></asp:TextBox></td>
+        </tr>
+        <tr>
+          <th>Bitiş Tarihi</th>
+          <td><p>
+              <asp:TextBox ID="Textbt_tarihi" runat="server"></asp:TextBox>
+            
+            </p>
+            <p>
+                <asp:Button ID="ara" runat="server" Text="ARA" BackColor="#27A2CE" ForeColor="#FFFFCC" OnClick="ara_Click" Width="117px" />
+              </p></td>
+        </tr>
+      </table>
+      <p class="advanced"><a href="#"><img src="images/advanced.gif" width="11" height="11" alt="" />Gelişmiş Arama</a></p>
+    </form>
+  </div>
+</div>
+<div id="content">
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+
+</div>
+
+<div id="footer"> &copy; Copyright Seyehat Acentası Sistemi | designed by Ozan Özten </a></div>
+
+
+</div>
+<!-- end wrapper -->
+
+    </form>
+</body>
+</html>

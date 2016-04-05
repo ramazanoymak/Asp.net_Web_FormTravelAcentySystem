@@ -1,0 +1,103 @@
+﻿body {
+    font-family: 'Lato', sans-serif;
+    margin:0;
+    padding:0;
+}
+.newuser{
+    width:26%;
+    float:left;
+
+}
+#exit {
+    width: 100px;
+    height: 60px;
+    height:60px;
+    float:right;color:white;
+    background:#2672EC;
+    border:none;
+    font-size:20px;
+    cursor:pointer;
+}
+#exit:hover{
+    background:#1FAEFF;
+}
+.allusers{
+    width:66%;
+    float:left;
+    margin-top:65px;
+}
+.title{
+    width:300px;
+    font-size:30px;
+    float:left;
+}
+.login-body{
+   background-image: url("/Assets/main.jpg");
+   background-size:cover;
+   color:white;
+}
+
+.login-wrapper{
+    background:rgba(0,0,0,0.5);
+    margin:15% auto;
+    width:280px;
+    text-align:center;
+    
+}
+#giris{
+    border:1px solid white;
+    background:#2672EC;
+    color:white;
+    text-align:center;
+    width:50px;
+    height:20px;
+    border:none;                
+}
+.navbar{
+    width:100%;
+    height:60px;
+    background:#2672EC;
+    line-height:60px;
+    color:white;
+}
+.navbar h2{
+    width:300px;
+}
+.admin-menu{
+    margin:0 auto;
+    width:800px;
+    height:auto;
+}
+#newuser,#delete, #giveorder,#newproduct,#delproduct{
+    border:1px solid #2672EC;
+    min-width:60px;
+    height:25px;
+    background:#2672EC;
+    color:white;
+}
+.product{
+     width:489px;
+     margin:10px auto;
+}
+.order{
+    width:500px;
+    margin:100px 50px;
+    border-right:1px solid rgba(0,0,0,0.2);
+    float:left;
+}
+
+.products {
+    width: 60%;
+    float: left;
+    min-height: 200px;
+}
+
+.listorder{
+    width:600px;
+    margin:100px 0;
+    float:left;
+}
+
+.prdct{
+    float:right;
+}

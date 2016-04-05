@@ -1,0 +1,57 @@
+﻿.vitrin {
+	float: left;
+	height: auto;
+	width: auto;
+	margin-left: 5px;
+}
+.vitrin .vitrin_ilan {
+	float: left;
+	height: 200px;
+	width: 169px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	display: block;
+}
+.vitrin_ilan .ilan_baslik {
+	text-align: center;
+	float: right;
+	height: 15px;
+	width: 160px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+	display: block;
+}
+.vitrin_ilan .ilan_resim {
+	float: right;
+	height: 150px;
+	width: 160px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	display: block;
+}
+.vitrin_ilan .ilan_bilgi {
+	float: right;
+	height: 15px;
+	width: 160px;
+	display: block;
+	margin: 3px;
+}
+.content
+ {
+    height:auto;
+    float: left;
+}
+#DataList1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: auto;
+	width:800px;
+	margin-top: 9px;
+}

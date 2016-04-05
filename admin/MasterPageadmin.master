@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageadmin.master.cs" Inherits="admin_MasterPageadmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="content/css/style.css" rel="stylesheet" />
+    <link href="content/css/masterpage_still.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+             <div class="navbar">
+           <div class="title">
+               Yönetici Paneli
+           </div>
+            
+            <asp:Button ID="exit" runat="server" OnClick="exit_Click" Text="Çıkış" />
+            
+        </div>
+        <div id="navigation"></div>
+<div class="menu">
+    
+<ul>
+<li><a href="admin.aspx">Kullanıcı işlemleri</a></li>
+<li><a href="hotel.aspx">Hotel işlemleri</a></li>
+<li><a href="ucus.aspx">Uçuş işlemleri</a></li>
+    <li><a href="turlar.aspx">Tur işlemleri</a></li>
+<li><a href="paket.aspx">Paket işlemleri</a></li>
+
+</ul>
+</div>
+    <div class="admin-main">
+        
+        <div class="admin-menu">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+   </div>
+        </div>
+    </form>
+</body>
+</html>
